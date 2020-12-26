@@ -1,0 +1,26 @@
+input:focus {   
+    border-color: green;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    outline: 0 none;
+  }
+  .btn-xl {
+    padding-left: 165px;
+    padding-right: 165px;
+    font-size: 16px;
+  
+  }
+
+  .btn-sm {
+    padding-left: 131px;
+    padding-right: 131px;
+    font-size: 14px;
+    margin-left: 343px;;
+    color:black;
+  
+  }
+ hr{
+   margin-right: 345px;
+   margin-left: 345px;
+  
+  
+ }

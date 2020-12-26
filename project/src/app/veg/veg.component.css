@@ -1,0 +1,61 @@
+.img{
+    height: 200px;
+    width: 200px;
+}
+.append{
+   width:1000px;
+   padding-top: 30px;
+   padding-left: 50px;
+}
+
+.image{
+    height: 400px;
+    width: 100%;
+}
+
+
+.button-style{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 12px 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.icon{
+    
+    border: none;
+    color:black;
+    
+    text-decoration: none;
+   
+}
+
+.images{
+    width:200px;
+    height:200px;
+    text-align:center; 
+    vertical-align:middle;
+}
+.images a:hover{
+  color:rgb(235, 137, 18);
+}
+
+.gfg{
+border-collapse:separate; 
+border-spacing:0 15px;
+} 
+
+.bright{
+    border: 1px solid gray;
+}
+
+
+.bt{
+    padding-right: 40px;
+    padding-left: 38px;
+}
+.dropdown-menu a:hover{
+    color: darkorange;
+}

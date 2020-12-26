@@ -1,0 +1,64 @@
+
+<div align="center">
+    <img src="../../assets/eat.png" style="height: 150px;width: 170px; "/>
+</div>
+<div class="container" >
+    <form [formGroup]="form" (ngSubmit)="register()" >
+<table  style="border: 1px solid gray;border-spacing: 15px;border-collapse: separate" align="center">
+    <tr >
+        <td style="font-size: 22px;">Create  Account</td>
+ </tr>
+
+    <tr>
+        <td style="font-size: 14px;"><b>Your Name</b> </td>
+ </tr>
+
+  <tr >
+    <td> <input type="text" formControlName="name" name="name" size="45px"></td>
+</tr>
+<tr>
+    <td style="font-size: 14px;"><b>Email</b> </td>
+</tr>
+
+<tr >
+<td> <input type="email" formControlName="email" name="email"  size="45px"></td>
+</tr>
+
+
+<tr>
+    <td style="font-size: 14px;"> <b>Password </b></td>
+</tr>
+<tr >
+<td> <input type="password" formControlName="pwd" name="pwd"  size="45px"></td>
+</tr>  
+<tr>
+    <td style="font-size: 14px;"> <b>Re-enter Password </b></td>
+</tr>
+<tr >
+<td> <input type="password" formControlName="pwd2" name="pwd2"  size="45px"></td>
+</tr>  
+
+  <tr>
+      <td>
+         
+       <button type="submit" class="btn btn-success center btn-sm" >Create Your New Account</button>
+</td>
+</tr>    
+
+<tr >
+    <td style="font-size: 13px;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+         By continuing, you agree to EGFG's<br/>
+          <a href="#" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Conditions of Use and Privacy Notice.</a>
+        </td>
+    </tr>  
+        <hr/>
+        <tr >
+            <td style="font-size: 13px;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                Already have an account?
+                  <a routerLink="/login" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Sign-in</a>
+                </td>
+            </tr>  
+      
+</table>
+</form>
+</div>
